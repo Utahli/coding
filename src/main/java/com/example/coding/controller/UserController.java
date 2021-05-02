@@ -1,7 +1,7 @@
 package com.example.coding.controller;
 
-import com.example.demo.entity.DemoDto;
-import com.example.demo.entity.ResponseModel;
+import com.example.coding.entity.DemoDto;
+import com.example.coding.entity.ResponseModel;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;

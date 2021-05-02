@@ -1,4 +1,8 @@
-package com.example.coding.code;;
+package com.example.coding.code.tree;
+
+import com.example.coding.code.TreeNode;
+
+;
 
 /**
  * @Author: liqingtai

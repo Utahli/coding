@@ -29,6 +29,9 @@ public class DequeTest {
         log.info("{},{}", queue, pop);
     }
 
+    /**
+     * 队列
+     */
     public static void test2() {
         Queue<Integer> queue = new LinkedList<>();
         queue.offer(1);
@@ -39,6 +42,9 @@ public class DequeTest {
         }
     }
 
+    /**
+     * 栈
+     */
     public static void test3() {
         Deque<Integer> stack = new LinkedList<>();
         stack.push(1);
@@ -50,6 +56,9 @@ public class DequeTest {
         }
     }
 
+    /**
+     * 双端队列
+     */
     public static void test4() {
         Deque<Integer> queue = new LinkedList<>();
         queue.add(1);

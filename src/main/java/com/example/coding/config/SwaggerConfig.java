@@ -29,7 +29,7 @@ public class SwaggerConfig {
         log.info("swagger");
         return new Docket(DocumentationType.SWAGGER_2).apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.example.demo.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.example.coding.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }
