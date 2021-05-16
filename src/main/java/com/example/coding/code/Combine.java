@@ -34,6 +34,7 @@ public class Combine {
             return;
         }
 
+        // 搜索有上届
         for (int i = idx; i < selection.length - (k - path.size()) + 1; i++) {
             path.offerLast(selection[i]);
             backTrack(selection, i + 1, k);
