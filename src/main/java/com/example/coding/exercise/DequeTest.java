@@ -70,9 +70,12 @@ public class DequeTest {
         queue.addLast(-1);
         queue.offer(-2);
         queue.offerLast(-2);
+        queue.offerFirst(-3);
 
         log.info("{}",queue.pollFirst());
         log.info("{}",queue.pollLast());
+        log.info("{}",queue.peekFirst());
+        log.info("{}",queue.peekLast());
 
     }
 
